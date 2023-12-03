@@ -1,7 +1,15 @@
 import React from 'react'
+import SimpleSlider from '../components/SimpleSlider'
 
 export default function page() {
-  return (
-    <div>Home page</div>
-  )
+    return (
+        <>
+            
+                <div className="mx-[10%] pb-[] ">
+                    <SimpleSlider />
+                </div>
+
+           
+        </>
+    )
 }
