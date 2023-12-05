@@ -60,13 +60,15 @@ export default function Navbar() {
 
     return (
         <>
-            <div className=" sm:px-4 py-4  lg:px-36">
+            <div className=" lg:px-10 sm:px-2 py-4 ">
                 <div className="flex items-center justify-between">
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <Link href="/home">
 
-                            <Image src="/assets/logo.png" width={100} height={100} alt="Logo" />
+                            <h3 className="text-3xl font-semibold hover:text-gray-300 cursor-pointer duration-200">
+                                Meddical
+                            </h3>
 
                         </Link>
                     </div>

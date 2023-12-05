@@ -1,13 +1,12 @@
 import React from 'react'
-
 import Banner from '../components/Banner'
 
-export default function page() {
+export default function HomePage() {
     return (
         <>
             
-                <div className="  py-5 ">
-                   <Banner/>
+                <div className="   ">
+                   {/* <Banner/> */}
                 </div>
 
            
