@@ -126,6 +126,9 @@ export default function Navbar() {
                                 <Link href="/signup">
                                     <p className='hover:underline underline-offset-4'>Sign Up</p>
                                 </Link>
+                                <Link href="/doctorsSchedule">
+                                    <p className='hover:underline underline-offset-4'>Doctors's Schedule</p>
+                                </Link>
                             </div>
                             <div className="flex justify-between md:gap-3 ">
                                 <div className="">
