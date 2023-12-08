@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import ImageCard from '../components/ImageCard';
 
 export default function DoctorsSchedule() {
     const tableData = [
@@ -10,8 +11,12 @@ export default function DoctorsSchedule() {
     ];
 
     return (
-        <div className="overflow-x-auto flex justify-center">
-            <table className="min-w-[80%]">
+        <> 
+        <div className=""> <ImageCard  heading="Doctor's Schedule"   /></div>
+       
+        <div className="overflow-x-auto flex justify-center my-10">
+           
+            <table className="min-w-[80%]   ">
                 <thead>
                     <tr>
                         <th className="px-4 py-2">Name</th>
@@ -23,8 +28,8 @@ export default function DoctorsSchedule() {
                 </thead>
                 <tbody>
                     {tableData.map((row) => (
-                        <tr key={row.id}>
-                            <td className="border px-4 py-2"><div className=" flex justify-center">{row.name}</div></td>
+                        <tr className='hover:bg-slate-200' key={row.id}>
+                            <td className="border px-4  py-2"><div className=" flex justify-center">{row.name}</div></td>
                             <td className="border px-4 py-2"><div className=" flex justify-center">{row.Specialization}</div></td>
                             <td className="border px-4 py-2  "><div className=" flex justify-center">{row.openAt}</div></td>
                             <td className="border px-4 py-2  "><div className="flex justify-center">{row.closeAt}</div> </td>
@@ -38,6 +43,7 @@ export default function DoctorsSchedule() {
                 </tbody>
             </table>
         </div>
+        </>
     )
 }
 

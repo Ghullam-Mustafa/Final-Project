@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import ImageCard from '../components/ImageCard';
 export default function About() {
   const data = [
     {
@@ -32,6 +32,8 @@ export default function About() {
 
   return (
     <>
+              <div className=""> <ImageCard heading="About Us" description="Leading the Way in Medical Excellence" /></div>
+
       <div>
         {data.map((item, i) => {
           const isEven = i % 2 === 0;

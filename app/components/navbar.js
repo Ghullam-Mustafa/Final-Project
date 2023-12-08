@@ -1,51 +1,5 @@
 
 
-
-// import React from 'react';
-// import Image from 'next/image';
-// import Link from 'next/link';
-
-// export default function Navbar() {
-//     return (
-//         <>
-//             <div className="flex flex-col sm:flex-row justify-between items-center px-[135px] pt-[40px]">
-//                 {/* Logo */}
-//                 <div className="">
-//                     <Link href="/home">
-//                         <Image src="/assets/logo.png" width={100} height={100} />
-//                     </Link>
-//                 </div>
-
-//                 {/* Navigation Links */}
-//                 <div className="flex justify-between sm:gap-5 mt-4 sm:mt-0 sm:none">
-//                     <div className="">
-//                         <Link href="/home"><p className='hover:underline underline-offset-4'>Home</p></Link>
-//                     </div>
-//                     <div className="">
-//                         <Link href="/contact"><p className='hover:underline underline-offset-4'>Contact</p></Link>
-//                     </div>
-//                     <div className="">
-//                         <Link href="/about"><p className='hover:underline underline-offset-4'>About</p></Link>
-//                     </div>
-//                     <div className="">
-//                         <Link href="/signup"><p className='hover:underline underline-offset-4'>Sign Up</p></Link>
-//                     </div>
-//                 </div>
-
-//                 {/* Login and Cart */}
-//                 <div className="flex justify-between gap-3 mt-4 sm:mt-0">
-//                     <div className="">
-//                         <Link href="/login"><p className='hover:underline underline-offset-4'>Login</p></Link>
-//                     </div>
-//                     <div className="">
-//                         <Link href="/cart"><Image src="/assets/Cart.png" width={20} height={20} /></Link>
-//                     </div>
-//                 </div>
-//             </div>
-//         </>
-//     );
-// }
-
 "use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -128,6 +82,9 @@ export default function Navbar() {
                                 </Link>
                                 <Link href="/doctorsSchedule">
                                     <p className='hover:underline underline-offset-4'>Doctors's Schedule</p>
+                                </Link>
+                                <Link href="/createProfile">
+                                    <p className='hover:underline underline-offset-4'>Create Profile</p>
                                 </Link>
                             </div>
                             <div className="flex justify-between md:gap-3 ">
