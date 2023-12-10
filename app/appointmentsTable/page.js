@@ -1,9 +1,10 @@
+
 'use client'
 import React from 'react'
 import ImageCard from '../components/ImageCard';
 import Link from 'next/link';
 
-export default function DoctorsSchedule() {
+export default function AppointmentsTable() {
     const tableData = [
         { name: 'John Doe', Specialization: "orthopedic", openAt: "11:00 AM", closeAt: "05:00 PM" },
         { name: 'Jane Smith',Specialization: "Gynaecologist",  openAt: "10:00 AM", closeAt: "06:00 PM" },
@@ -13,7 +14,7 @@ export default function DoctorsSchedule() {
 
     return (
         <> 
-        <div className=""> <ImageCard  heading="Doctor's Schedule"   /></div>
+        <div className=""> <ImageCard  heading="Yours Appointments"   /></div>
        
         <div className="overflow-x-auto flex justify-center my-10">
            
@@ -54,3 +55,4 @@ export default function DoctorsSchedule() {
 function handleButtonClick(id) {
     alert(`Button clicked for row with ID: ${id}`);
 }
+

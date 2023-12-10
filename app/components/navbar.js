@@ -86,6 +86,9 @@ export default function Navbar() {
                                 <Link href="/createProfile">
                                     <p className='hover:underline underline-offset-4'>Create Profile</p>
                                 </Link>
+                                <Link href="/appointmentsTable">
+                                    <p className='hover:underline underline-offset-4'>AppointmentsTable</p>
+                                </Link>
                             </div>
                             <div className="flex justify-between md:gap-3 ">
                                 <div className="">
