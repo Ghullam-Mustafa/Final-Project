@@ -38,8 +38,8 @@ export default function HomePage() {
                             <div className="flex relative">
                                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-photo/front-view-doctor-working-clinic_23-2150165481.jpg?size=626&ext=jpg&uid=R99462340&ga=GA1.1.1696503525.1702186388&semt=ais" />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Specialist</h2>
+                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Optimologist</h1>
                                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 </div>
                             </div>
@@ -48,8 +48,8 @@ export default function HomePage() {
                             <div className="flex relative">
                                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/premium-photo/attractive-female-doctor-front-medical-group_358354-9692.jpg?size=626&ext=jpg&uid=R99462340&ga=GA1.1.1696503525.1702186388&semt=ais" />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Specialist</h2>
+                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Dermatolgist</h1>
                                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export default function HomePage() {
                                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-photo/sergeon-presenting-colleagues-new-medical-procedures-coworkers-taking-notes-having-brainstorming-sitting-meeting-desk-hospital-clinic-profesional-team-talking-during-healthcare-conference_482257-13754.jpg?size=626&ext=jpg&uid=R99462340&ga=GA1.1.1696503525.1702186388&semt=ais" />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Psychologis</h1>
                                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-
+            <div className=""></div>
 
 
             <section className="text-gray-600 body-font">
