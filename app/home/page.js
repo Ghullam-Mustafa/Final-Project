@@ -99,7 +99,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <div className=""></div>
+            {/* <div className=""></div> */}
 
 
             <section className="text-gray-600 body-font">
