@@ -5,7 +5,7 @@ export default function footer() {
     return (
         <>
             <div className="bg-black">
-                <div className="px-32 py-10 flex justify-between">
+                <div className="px-32 py-10 grid  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4 ">
                     <div className="">
                         <div className="py-2">
                             <Link href="/home">
